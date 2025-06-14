@@ -1,0 +1,24 @@
+{
+  "name": "wwebjs-bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.15.2",
+    "qrcode-terminal": "^0.12.0",
+    "redis": "^5.5.6",
+    "whatsapp-web.js": "^1.30.0",
+    "wwebjs-mongo": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
